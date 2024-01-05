@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+
+    <!-- Tailwind Css CDN Link -->
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Responsive Navbar -->
+    <nav
+      class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10"
+    >
+      <h1 class="text-2xl">Greenden</h1>
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="w-6 h-6 md:hidden"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+        />
+      </svg>
+
+      <ul class="flex gap-5 text-gray-600 hidden md:flex">
+        <li>
+          <a class="hover:underline hover:text-black" href="./index.html"
+            >Home</a
+          >
+        </li>
+
+        <li>
+          <a class="hover:underline hover:text-black" href="./product.html"
+            >Product</a
+          >
+        </li>
+
+        <li>
+          <a class="hover:underline hover:text-black" href="./contact.html"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Products -->
+    <div class="text-center">
+      <h1 class="font-bold mt-5 text-3xl">Our Products</h1>
+      <input
+        class="border border-black w-10/12 h-10 p-2 mt-4"
+        type="text"
+        placeholder="Seach for Product.."
+      />
+
+      <div class="grid grid-cols-2 mt-10 gap-5 md:grid-cols-4">
+        <div>
+          <img
+            src="./images/seller1.jpg"
+            class="inline hover:shadow-lg transform hover:-translate-y-2"
+            alt="seller1"
+          />
+          <h1>Rose Plant</h1>
+          <p>$20</p>
+        </div>
+
+        <div>
+          <img
+            src="./images/seller7.jpg"
+            class="inline hover:shadow-lg transform hover:-translate-y-2"
+            alt="seller2"
+          />
+          <h1>Purple Plant</h1>
+          <p>$30</p>
+        </div>
+
+        <div>
+          <img
+            src="./images/seller8.jpg"
+            class="inline hover:shadow-lg transform hover:-translate-y-2"
+            alt="seller3"
+          />
+          <h1>Li Plant</h1>
+          <p>$40</p>
+        </div>
+
+        <div>
+          <img
+            src="./images/seller4.jpg"
+            class="inline hover:shadow-lg transform hover:-translate-y-2"
+            alt="seller4"
+          />
+          <h1>Ml Plant</h1>
+          <p>$20</p>
+        </div>
+
+        <div>
+          <img
+            src="./images/seller5.jpg"
+            class="inline hover:shadow-lg transform hover:-translate-y-2"
+            alt="seller5"
+          />
+          <h1>Gt Plant</h1>
+          <p>$20</p>
+        </div>
+
+        <div>
+          <img
+            src="./images/seller6.jpg"
+            class="inline hover:shadow-lg transform hover:-translate-y-2"
+            alt="seller6"
+          />
+          <h1>Dd Plant</h1>
+          <p>$20</p>
+        </div>
+
+        <div>
+          <img
+            src="./images/seller2.jpg"
+            class="inline hover:shadow-lg transform hover:-translate-y-2"
+            alt="seller7"
+          />
+          <h1>Rcb Plant</h1>
+          <p>$20</p>
+        </div>
+
+        <div>
+          <img
+            src="./images/seller3.jpg"
+            class="inline hover:shadow-lg transform hover:-translate-y-2"
+            alt="seller8"
+          />
+          <h1>Csk Plant</h1>
+          <p>$20</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="bg-green-100 mt-5 p-6">
+      <h1 class="font-bold mt-5 text-3xl">Greenden</h1>
+      <p class="mt-5">
+        The Standard chunk of Lorem ipsum used since the 1500s is reprodused
+        below for those interest
+      </p>
+      <p class="mt-5">@ 2021 Greenday.com</p>
+    </div>
+  </body>
+</html>
